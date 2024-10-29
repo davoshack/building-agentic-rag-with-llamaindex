@@ -117,8 +117,8 @@ def get_doc_tools(
         name=f"summary_tool_{name}",
         query_engine=summary_query_engine,
         description=(
-            "Use ONLY IF you want to get a holistic summary of MetaGPT. "
-            "Do NOT use if you have specific questions over MetaGPT."
+            f"Use ONLY IF you want to get a holistic summary of {name}. "
+            f"Do NOT use if you have specific questions over {name}."
         ),
     )
 
